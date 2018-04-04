@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/submodules/belcard/include/belcard/belcard_utils.hpp
+string
+-
+
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/submodules/belcard/tools/belcard-unfolder.cpp
+belcard/belcard_utils.hpp
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/submodules/belcard/tools/belcard/belcard_utils.hpp
+iostream
+-
+fstream
+-
+sstream
+-
+

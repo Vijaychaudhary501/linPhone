@@ -1,0 +1,14 @@
+# Target labels
+ EP_bellesip
+# Source files and their labels
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/cmake/CMakeFiles/EP_bellesip
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/cmake/CMakeFiles/EP_bellesip.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/cmake/CMakeFiles/EP_bellesip-complete.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_bellesip/EP_bellesip-install.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_bellesip/EP_bellesip-mkdir.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_bellesip/EP_bellesip-download.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_bellesip/EP_bellesip-update.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_bellesip/EP_bellesip-patch.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_bellesip/EP_bellesip-configure.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_bellesip/EP_bellesip-build.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_bellesip/EP_bellesip-force_build.rule

@@ -1,0 +1,14 @@
+# Target labels
+ EP_mswebrtc
+# Source files and their labels
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/cmake/CMakeFiles/EP_mswebrtc
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/cmake/CMakeFiles/EP_mswebrtc.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/cmake/CMakeFiles/EP_mswebrtc-complete.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_mswebrtc/EP_mswebrtc-install.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_mswebrtc/EP_mswebrtc-mkdir.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_mswebrtc/EP_mswebrtc-download.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_mswebrtc/EP_mswebrtc-update.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_mswebrtc/EP_mswebrtc-patch.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_mswebrtc/EP_mswebrtc-configure.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_mswebrtc/EP_mswebrtc-build.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_mswebrtc/EP_mswebrtc-force_build.rule

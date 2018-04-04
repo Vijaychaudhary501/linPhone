@@ -1,0 +1,8 @@
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/mswebrtc/CMakeFiles/install/local.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/mswebrtc/CMakeFiles/install.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/mswebrtc/CMakeFiles/list_install_components.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/mswebrtc/CMakeFiles/package.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/mswebrtc/CMakeFiles/package_source.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/mswebrtc/CMakeFiles/rebuild_cache.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/mswebrtc/CMakeFiles/edit_cache.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/mswebrtc/CMakeFiles/mswebrtc.dir

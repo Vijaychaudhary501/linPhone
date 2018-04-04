@@ -1,0 +1,14 @@
+# Target labels
+ EP_belcard
+# Source files and their labels
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/cmake/CMakeFiles/EP_belcard
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/cmake/CMakeFiles/EP_belcard.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/cmake/CMakeFiles/EP_belcard-complete.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_belcard/EP_belcard-install.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_belcard/EP_belcard-mkdir.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_belcard/EP_belcard-download.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_belcard/EP_belcard-update.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_belcard/EP_belcard-patch.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_belcard/EP_belcard-configure.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_belcard/EP_belcard-build.rule
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Stamp/EP_belcard/EP_belcard-force_build.rule

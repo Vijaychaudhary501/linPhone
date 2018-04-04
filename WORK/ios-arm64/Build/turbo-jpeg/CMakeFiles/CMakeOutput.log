@@ -1,0 +1,222 @@
+The target system is: Darwin - 11.2 - aarch64
+The host system is: Darwin - 17.3.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d3407/fast"
+/Applications/Xcode/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d3407.dir/build.make CMakeFiles/cmTC_d3407.dir/build
+Building C object CMakeFiles/cmTC_d3407.dir/testCCompiler.c.o
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk   -o CMakeFiles/cmTC_d3407.dir/testCCompiler.c.o   -c /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_d3407
+/usr/local/Cellar/cmake/3.10.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3407.dir/link.txt --verbose=1
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d3407.dir/testCCompiler.c.o  -o cmTC_d3407 
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_85bae/fast"
+/Applications/Xcode/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_85bae.dir/build.make CMakeFiles/cmTC_85bae.dir/build
+Building C object CMakeFiles/cmTC_85bae.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk   -o CMakeFiles/cmTC_85bae.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.10.2/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_85bae
+/usr/local/Cellar/cmake/3.10.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85bae.dir/link.txt --verbose=1
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_85bae.dir/CMakeCCompilerABI.c.o  -o cmTC_85bae 
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: aarch64-apple-darwin
+Thread model: posix
+InstalledDir: /Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -iphoneos_version_min 11.2.0 -syslibroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk -o cmTC_85bae -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_85bae.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.ios.a
+@(#)PROGRAM:ld  PROJECT:ld64-305
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_85bae/fast"]
+  ignore line: [/Applications/Xcode/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_85bae.dir/build.make CMakeFiles/cmTC_85bae.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_85bae.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk   -o CMakeFiles/cmTC_85bae.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.10.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_85bae]
+  ignore line: [/usr/local/Cellar/cmake/3.10.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85bae.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_85bae.dir/CMakeCCompilerABI.c.o  -o cmTC_85bae ]
+  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.39.2)]
+  ignore line: [Target: aarch64-apple-darwin]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -iphoneos_version_min 11.2.0 -syslibroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk -o cmTC_85bae -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_85bae.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.ios.a]
+    arg [/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-iphoneos_version_min] ==> ignore
+    arg [11.2.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_85bae] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_85bae.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.ios.a] ==> lib [/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.ios.a]
+  Library search paths: [;/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.ios.a]
+  collapse library dir [/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib] ==> [/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_27a0c/fast"
+/Applications/Xcode/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_27a0c.dir/build.make CMakeFiles/cmTC_27a0c.dir/build
+Building C object CMakeFiles/cmTC_27a0c.dir/feature_tests.c.o
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk   -std=c11 -o CMakeFiles/cmTC_27a0c.dir/feature_tests.c.o   -c /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/feature_tests.c
+Linking C executable cmTC_27a0c
+/usr/local/Cellar/cmake/3.10.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27a0c.dir/link.txt --verbose=1
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_27a0c.dir/feature_tests.c.o  -o cmTC_27a0c 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b54ee/fast"
+/Applications/Xcode/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b54ee.dir/build.make CMakeFiles/cmTC_b54ee.dir/build
+Building C object CMakeFiles/cmTC_b54ee.dir/feature_tests.c.o
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk   -std=c99 -o CMakeFiles/cmTC_b54ee.dir/feature_tests.c.o   -c /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b54ee
+/usr/local/Cellar/cmake/3.10.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b54ee.dir/link.txt --verbose=1
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b54ee.dir/feature_tests.c.o  -o cmTC_b54ee 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1350f/fast"
+/Applications/Xcode/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1350f.dir/build.make CMakeFiles/cmTC_1350f.dir/build
+Building C object CMakeFiles/cmTC_1350f.dir/feature_tests.c.o
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk   -std=c90 -o CMakeFiles/cmTC_1350f.dir/feature_tests.c.o   -c /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1350f
+/usr/local/Cellar/cmake/3.10.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1350f.dir/link.txt --verbose=1
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1350f.dir/feature_tests.c.o  -o cmTC_1350f 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d410/fast"
+/Applications/Xcode/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0d410.dir/build.make CMakeFiles/cmTC_0d410.dir/build
+Building C object CMakeFiles/cmTC_0d410.dir/CheckIncludeFile.c.o
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk   -o CMakeFiles/cmTC_0d410.dir/CheckIncludeFile.c.o   -c /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0d410
+/usr/local/Cellar/cmake/3.10.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d410.dir/link.txt --verbose=1
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0d410.dir/CheckIncludeFile.c.o  -o cmTC_0d410 
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf880/fast"
+/Applications/Xcode/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bf880.dir/build.make CMakeFiles/cmTC_bf880.dir/build
+Building C object CMakeFiles/cmTC_bf880.dir/CheckIncludeFile.c.o
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk   -o CMakeFiles/cmTC_bf880.dir/CheckIncludeFile.c.o   -c /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bf880
+/usr/local/Cellar/cmake/3.10.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf880.dir/link.txt --verbose=1
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bf880.dir/CheckIncludeFile.c.o  -o cmTC_bf880 
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb80a/fast"
+/Applications/Xcode/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cb80a.dir/build.make CMakeFiles/cmTC_cb80a.dir/build
+Building C object CMakeFiles/cmTC_cb80a.dir/CheckIncludeFile.c.o
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk   -o CMakeFiles/cmTC_cb80a.dir/CheckIncludeFile.c.o   -c /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cb80a
+/usr/local/Cellar/cmake/3.10.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb80a.dir/link.txt --verbose=1
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cb80a.dir/CheckIncludeFile.c.o  -o cmTC_cb80a 
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c286/fast"
+/Applications/Xcode/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1c286.dir/build.make CMakeFiles/cmTC_1c286.dir/build
+Building C object CMakeFiles/cmTC_1c286.dir/SIZEOF_SIZE_T.c.o
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk   -o CMakeFiles/cmTC_1c286.dir/SIZEOF_SIZE_T.c.o   -c /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_1c286
+/usr/local/Cellar/cmake/3.10.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c286.dir/link.txt --verbose=1
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1c286.dir/SIZEOF_SIZE_T.c.o  -o cmTC_1c286 
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87a3e/fast"
+/Applications/Xcode/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_87a3e.dir/build.make CMakeFiles/cmTC_87a3e.dir/build
+Building C object CMakeFiles/cmTC_87a3e.dir/CheckIncludeFile.c.o
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk   -o CMakeFiles/cmTC_87a3e.dir/CheckIncludeFile.c.o   -c /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_87a3e
+/usr/local/Cellar/cmake/3.10.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87a3e.dir/link.txt --verbose=1
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_87a3e.dir/CheckIncludeFile.c.o  -o cmTC_87a3e 
+
+
+Determining if the include file locale.h exists passed with the following output:
+Change Dir: /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07967/fast"
+/Applications/Xcode/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_07967.dir/build.make CMakeFiles/cmTC_07967.dir/build
+Building C object CMakeFiles/cmTC_07967.dir/CheckIncludeFile.c.o
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk   -o CMakeFiles/cmTC_07967.dir/CheckIncludeFile.c.o   -c /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-arm64/Build/turbo-jpeg/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_07967
+/usr/local/Cellar/cmake/3.10.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07967.dir/link.txt --verbose=1
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_07967.dir/CheckIncludeFile.c.o  -o cmTC_07967 
+
+

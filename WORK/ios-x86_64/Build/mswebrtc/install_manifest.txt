@@ -1,0 +1,2 @@
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/liblinphone-sdk/x86_64-apple-darwin.ios/Frameworks/mswebrtc.framework/mswebrtc
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/liblinphone-sdk/x86_64-apple-darwin.ios/Frameworks/mswebrtc.framework/Info.plist

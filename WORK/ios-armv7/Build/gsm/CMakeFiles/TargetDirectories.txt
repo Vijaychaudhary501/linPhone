@@ -1,0 +1,6 @@
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/gsm/CMakeFiles/install/local.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/gsm/CMakeFiles/install.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/gsm/CMakeFiles/gsm.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/gsm/CMakeFiles/list_install_components.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/gsm/CMakeFiles/rebuild_cache.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/gsm/CMakeFiles/edit_cache.dir

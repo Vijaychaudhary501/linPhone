@@ -1,0 +1,57 @@
+Performing C SOURCE FILE Test OPUS_X86_MAY_HAVE_SSE4_1 failed with the following output:
+Change Dir: /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-x86_64/Build/opus/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd2f9/fast"
+/Applications/Xcode/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bd2f9.dir/build.make CMakeFiles/cmTC_bd2f9.dir/build
+Building C object CMakeFiles/cmTC_bd2f9.dir/src.c.o
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=x86_64-apple-darwin   -DOPUS_X86_MAY_HAVE_SSE4_1 -arch x86_64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk   -o CMakeFiles/cmTC_bd2f9.dir/src.c.o   -c /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-x86_64/Build/opus/CMakeFiles/CMakeTmp/src.c
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-x86_64/Build/opus/CMakeFiles/CMakeTmp/src.c:7:10: error: always_inline function '_mm_mul_epi32' requires target feature 'sse4.1', but would be inlined into function 'main' that is compiled without support for 'sse4.1'
+        mtest = _mm_mul_epi32(mtest, mtest);
+                ^
+1 error generated.
+make[5]: *** [CMakeFiles/cmTC_bd2f9.dir/src.c.o] Error 1
+make[4]: *** [cmTC_bd2f9/fast] Error 2
+
+Source file was:
+
+#include <smmintrin.h>
+#include <time.h>
+int main(int argc, char *argv[]) {
+	__m128i mtest;
+	mtest = _mm_set1_epi32((int)time(NULL));
+	mtest = _mm_mul_epi32(mtest, mtest);
+	return _mm_cvtsi128_si32(mtest);
+}
+Performing C SOURCE FILE Test OPUS_X86_MAY_HAVE_AVX failed with the following output:
+Change Dir: /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-x86_64/Build/opus/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2fd19/fast"
+/Applications/Xcode/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2fd19.dir/build.make CMakeFiles/cmTC_2fd19.dir/build
+Building C object CMakeFiles/cmTC_2fd19.dir/src.c.o
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=x86_64-apple-darwin   -DOPUS_X86_MAY_HAVE_AVX -arch x86_64 -isysroot /Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk   -o CMakeFiles/cmTC_2fd19.dir/src.c.o   -c /Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-x86_64/Build/opus/CMakeFiles/CMakeTmp/src.c
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-x86_64/Build/opus/CMakeFiles/CMakeTmp/src.c:6:10: error: always_inline function '_mm256_set1_ps' requires target feature 'xsave', but would be inlined into function 'main' that is compiled without support for 'xsave'
+        mtest = _mm256_set1_ps((float)time(NULL));
+                ^
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-x86_64/Build/opus/CMakeFiles/CMakeTmp/src.c:7:10: error: always_inline function '_mm256_addsub_ps' requires target feature 'xsave', but would be inlined into function 'main' that is compiled without support for 'xsave'
+        mtest = _mm256_addsub_ps(mtest, mtest);
+                ^
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-x86_64/Build/opus/CMakeFiles/CMakeTmp/src.c:8:24: error: always_inline function '_mm256_undefined_ps' requires target feature 'xsave', but would be inlined into function 'main' that is compiled without support for 'xsave'
+        return _mm_cvtss_si32(_mm256_extractf128_ps(mtest, 0));
+                              ^
+/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include/avxintrin.h:4531:14: note: expanded from macro '_mm256_extractf128_ps'
+    (__v8sf)(_mm256_undefined_ps()), \
+             ^
+3 errors generated.
+make[5]: *** [CMakeFiles/cmTC_2fd19.dir/src.c.o] Error 1
+make[4]: *** [cmTC_2fd19/fast] Error 2
+
+Source file was:
+
+#include <immintrin.h>
+#include <time.h>
+int main(int argc, char *argv[]) {
+	__m256 mtest;
+	mtest = _mm256_set1_ps((float)time(NULL));
+	mtest = _mm256_addsub_ps(mtest, mtest);
+	return _mm_cvtss_si32(_mm256_extractf128_ps(mtest, 0));
+}

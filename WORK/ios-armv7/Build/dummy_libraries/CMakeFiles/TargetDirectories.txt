@@ -1,0 +1,11 @@
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/dummy_libraries/CMakeFiles/install/local.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/dummy_libraries/CMakeFiles/rebuild_cache.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/dummy_libraries/CMakeFiles/edit_cache.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/dummy_libraries/CMakeFiles/install.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/dummy_libraries/CMakeFiles/msamr.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/dummy_libraries/CMakeFiles/msopenh264.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/dummy_libraries/CMakeFiles/mscodec2.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/dummy_libraries/CMakeFiles/linphonetester.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/dummy_libraries/CMakeFiles/msx264.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/dummy_libraries/CMakeFiles/list_install_components.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-armv7/Build/dummy_libraries/CMakeFiles/mssilk.dir

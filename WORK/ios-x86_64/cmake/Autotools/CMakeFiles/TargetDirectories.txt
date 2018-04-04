@@ -1,0 +1,2 @@
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-x86_64/cmake/Autotools/CMakeFiles/rebuild_cache.dir
+/Users/vijaychaudhry/Desktop/SVN/Test/linphone-iphone/WORK/ios-x86_64/cmake/Autotools/CMakeFiles/edit_cache.dir
